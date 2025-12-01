@@ -1,0 +1,49 @@
+nav {
+  height: 112px;
+  display: flex;
+  justify-content: space-around;
+  > img {
+    margin-top: 20px;
+    height: 64px;
+    width: 64px;
+  }
+  .navigation-header {
+    display: flex;
+    width: 700px;
+
+    > ul {
+      align-items: center;
+      display: flex;
+      gap: 55px;
+      justify-content: center;
+      list-style: none;
+      > li:not(.phone_btn) {
+        > a {
+          color: white;
+          &:hover {
+            text-decoration: underline;
+            text-decoration-color: red;
+          }
+        }
+      }
+    }
+  }
+
+  .phone_btn {
+    > a {
+      align-items: center;
+      background-color: var(--h2_text);
+      border: 2px solid white;
+      border-radius: 10px;
+      display: flex;
+      gap: 10px;
+      padding: 10px;
+      color: var(--color_standard_white);
+      &:hover {
+        background-color: rgb(204, 74, 71);
+        font-weight: 600;
+        text-decoration: none;
+      }
+    }
+  }
+}
