@@ -1,13 +1,16 @@
-@import "../../../styles/variables";
+
 
 section {
-  background-image: url("/assets/img/1_hero/JPG/hero_bg.jpg");
+
+ background-image: url("../../../assets/img/1_hero/JPG/hero_bg.jpg");
+
+
   background-position: center;
   background-size: cover;
   height: 100vh;
 
   h1,
-  h2 {
+  h2 { 
     text-align: center;
     margin: 0;
     color: var(--color_standard_white);
