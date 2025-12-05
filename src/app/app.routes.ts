@@ -7,5 +7,4 @@ export const routes: Routes = [
     { path : '' , component : MainContent },
       { path : 'imprint-comp' , component : ImprintComp },
        { path : 'landing-page' , component : LandingPageComp },
-
 ];
