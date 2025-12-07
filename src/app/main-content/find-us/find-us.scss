@@ -1,0 +1,35 @@
+#find-us-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+}
+
+.adress-container {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+h2 {
+    padding-bottom: 0;
+}
+
+.find-us-content p {
+    padding: 8px 0 64px;
+}
+
+
+.find-us-image {
+    width: 20px;
+}
+
+#ifraime-google {
+
+    border: 0;
+    width: 100%;
+    min-height: 450px;
+}

@@ -1,1 +1,35 @@
-p{ color: red;}
+.logo-footer {
+    display: none;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--footer);
+    height: 144px;
+    padding: 0 279px;
+}
+
+.logo-icon-content {
+    width: 100%;
+    display: flex;
+    ;
+    justify-content: space-between;
+}
+
+
+
+.logo-name img {
+    height: 44px;
+}
+
+.icon-container {
+    display: flex;
+    gap: 15px;
+}
+
+.icon-container img {
+    height: 40px;
+    width: 40px;
+}

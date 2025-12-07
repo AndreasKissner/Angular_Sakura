@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import { LandingPageComp } from './landing-page/landing-page-comp';
 import { OurMenu } from './our-menu/our-menu';
 import { HowToOrder } from './how-to-order/how-to-order';
+import { FindUs } from './find-us/find-us';
 
 @Component({
   selector: 'app-main-content',
-  imports: [LandingPageComp, OurMenu, HowToOrder],
+  imports: [LandingPageComp, OurMenu, HowToOrder, FindUs],
   templateUrl: './main-content.html',
   styleUrl: './main-content.scss',
 })

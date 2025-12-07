@@ -1,3 +1,77 @@
-p {
-    margin-top:1300px;
+#our-menu {
+    background-image: url('../../../assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 0 279px;
+    padding-bottom: 120px;
+
 }
+
+#our-menu h2 {
+    padding-top: 120px;
+    padding-bottom: 64px;
+    color: var(--h2_text);
+    font-size: 80px;
+    font-family: var(--fonts-family-raleway_bold);
+    text-align: center;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.menu-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.menu-img-container {
+    width: 100%;
+    max-width: 352px;
+
+}
+
+.menu-img {
+    height: 325px;
+}
+
+.menu-name {
+    font-family: var(--fonts-family-economica_bold);
+    font-size: 56px;
+    color: var(--Default_text);
+    padding-bottom: 16px;
+}
+
+.menu-price,
+.menu-food {
+    font-family: var(--fonts-family-raleway_bold);
+    font-size: 32px;
+    color: var(--dish_price_text);
+    padding-bottom: 8px;
+}
+
+.menu-price {
+    padding-left: 311px;
+}
+
+.menu-reverse {
+    padding-top: 56px;
+}
+
+.menu-reverse img {
+   
+    padding-bottom: 48px;
+}
+
+.menu-reverse .menu-price {
+    padding-left: 317px;
+}
+

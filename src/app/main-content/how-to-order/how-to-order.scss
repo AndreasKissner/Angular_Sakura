@@ -1,0 +1,38 @@
+#how-to-order {
+    display: flex;
+    flex-direction: column;
+    padding: 0 279px;
+}
+
+
+#how-to-order h2 {
+    padding-top: 120px;
+    padding-bottom: 64px;
+
+}
+
+.order-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 87px;
+    justify-content: center;
+    text-align: center;
+}
+
+.order img {
+    width: 128px;
+}
+
+.order img {
+    padding-bottom: 16px;
+}
+
+.order p {
+    font-size: 56px;
+    font-family: var(--fonts-family-economica_bold);
+    color: var(--Default_text);
+    width: 270px;
+    padding-bottom: 120px;
+}
+

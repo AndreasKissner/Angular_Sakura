@@ -1,4 +1,7 @@
-$c: center;
+@import './../../../shared/colors.scss';
+@import './../../../shared/mixin.scss';
+@import './media_queries.scss';
+
 
 nav {
   height: 112px;
@@ -11,18 +14,15 @@ nav {
   }
 
   .navigation-header {
-    display: flex;
     width: 700px;
 
     > ul {
-      align-items: center;
-      display: flex;
+      @include center-flex;
       gap: 55px;
-      justify-content: center;
       list-style: none;
       > li:not(.phone_btn) {
         > a {
-          color: white;
+          color: $color_white;
           &:hover {
             text-decoration: underline;
             text-decoration-color: red;
@@ -36,7 +36,7 @@ nav {
     > a {
       align-items: center;
       background-color: var(--h2_text);
-      border: 2px solid white;
+      border: 2px solid $color_white;
       border-radius: 10px;
       display: flex;
       gap: 10px;
@@ -50,3 +50,5 @@ nav {
     }
   }
 }
+
+
